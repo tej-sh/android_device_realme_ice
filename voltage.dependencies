@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "android_device_oneplus_sm8350-common",
+    "target_path": "device/oneplus/sm8350-common"
+  },
+  {
+    "repository": "android_hardware_oplus",
+    "target_path": "hardware/oplus"
+  },
+  {
+    "repository": "proprietary_vendor_realme_ice",
+    "target_path": "vendor/realme/ice"
+  }
+]
