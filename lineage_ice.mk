@@ -33,8 +33,8 @@ TARGET_SUPPORTS_OMX_SERVICE := false
 # Default is 1080
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# GApps
-WITH_GMS := true
+# GApps (MindTheGapps, A17 cinnamonbun branch, checked out at vendor/gapps)
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc=$(call normalize-path-list, "RMX3461-user 13 TP1A.220905.001 R.1119f23-59b8-59b9 release-keys") \
