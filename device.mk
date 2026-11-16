@@ -74,10 +74,6 @@ $(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 PRODUCT_PACKAGES += \
     vendor.lineage.oplus_als.service
 
-# Power
-PRODUCT_COPY_FILES += \
-    device/oneplus/sm8350-common/configs/power/powerhint_yupik.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
